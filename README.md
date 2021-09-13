@@ -1,1 +1,1 @@
-# Sparse-Points-Guided-MVS
+# Sparse-Guided-MVS
