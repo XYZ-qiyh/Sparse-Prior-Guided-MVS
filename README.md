@@ -11,3 +11,8 @@ Demo code for "Deep Multi-view Stereo with Sparse Points Guidance and Adaptive C
 
    + modify the `sparse_filename` in `dtu_yao_eval.py`
    + Enable `--use_guided` in `eval.sh`
+
+
+
+## Acknowledgement
+   + This code is based on the [MVSNet-pytorch](https://github.com/xy-guo/MVSNet_pytorch).
