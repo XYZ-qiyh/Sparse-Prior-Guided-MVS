@@ -12,8 +12,10 @@ Recently, the learning-based multi-view stereo (MVS) methods have achieved notab
 </center>
 
 ### How to use
+0. Dependencies
+   + ```   pip install -r requirements.txt   ```
 1. Data Preprocessing
-   + Use [colmap-sparse-recon](https://github.com/XYZ-qiyh/colmap-sparse-recon) to recover sparse points and convert the sparse points to sparse depth map.
+   + apply [colmap_sparse_recon](https://github.com/XYZ-qiyh/colmap-sparse-recon) to recover sparse points and convert the sparse points to sparse depth map.
 
 2. Depth inference using sparse points guidance
    + modify the `sparse_filename` in `dtu_yao_eval.py`
