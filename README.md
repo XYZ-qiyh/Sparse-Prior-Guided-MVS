@@ -8,6 +8,8 @@ Recently, the learning-based multi-view stereo (MVS) methods have achieved notab
 
 ### Framework
 ![framework](/figures/Sparse_Guided_MVS_Framework_EN.png)
+<center> Overview of our sparse prior guided multi-view stereo framework. We propose 1) Cost Volume Modulation that utilizes the sparse prior to modulate the cost distribution along the depth dimension, leading to unimodal distribution peaked at correct depth hypothesis, and 2) Geometry-aware Regularization which enhances the representative power of cost aggregation by additionally learned offsets to better fit the local geometric shape.
+</center>
 
 ### How to use
 1. Data Preprocessing
