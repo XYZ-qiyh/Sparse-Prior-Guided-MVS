@@ -1,6 +1,6 @@
 # Sparse-Prior-Guided-MVS
 
-Demo code for "Sparse Prior Guided Deep Multi-view Stereo" (In submission)
+Demo code for "Sparse Prior Guided Deep Multi-view Stereo" (Computers and Graphics 2022)
 
 ### Abstract
 
@@ -11,6 +11,7 @@ Recently, the learning-based multi-view stereo (MVS) methods have achieved notab
 <center> Overview of our sparse prior guided multi-view stereo framework. We propose 1) Cost Volume Modulation that utilizes the sparse prior to modulate the cost distribution along the depth dimension, leading to unimodal distribution peaked at correct depth hypothesis, and 2) Geometry-aware Regularization which enhances the representative power of cost aggregation by additionally learned offsets to better fit the local geometric shape.
 </center>
 
+<!--
 ### How to use
 0. Dependencies
    + ```   pip install -r requirements.txt   ```
@@ -25,6 +26,7 @@ Recently, the learning-based multi-view stereo (MVS) methods have achieved notab
 ### Qualitative Comparison
 
 ![depth_results](/figures/depth_results.png)
+-->
 
 ### Acknowledgement
-   + This code is based on the [MVSNet-pytorch](https://github.com/xy-guo/MVSNet_pytorch), thank xy-guo for his excellent code.
+   + This code is based on the [MVSNet-pytorch](https://github.com/xy-guo/MVSNet_pytorch)/[CasMVSNet](https://github.com/alibaba/cascade-stereo/tree/master/CasMVSNet), thank xy-guo/Gu Xiaodong@Alibaba for his excellent code.
