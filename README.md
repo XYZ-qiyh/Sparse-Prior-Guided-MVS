@@ -1,6 +1,6 @@
 # Sparse-Prior-Guided-MVS
 
-Demo code for "Sparse Prior Guided Deep Multi-view Stereo" (Computers and Graphics 2022)
+Demo code for "[Sparse Prior Guided Deep Multi-view Stereo](https://www.sciencedirect.com/science/article/abs/pii/S0097849322001157)" (Computers and Graphics 2022)
 
 ### Abstract
 
