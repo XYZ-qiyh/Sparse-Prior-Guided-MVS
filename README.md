@@ -11,6 +11,14 @@ Recently, the learning-based multi-view stereo (MVS) methods have achieved notab
 <center> Overview of our sparse prior guided multi-view stereo framework. We propose 1) Cost Volume Modulation that utilizes the sparse prior to modulate the cost distribution along the depth dimension, leading to unimodal distribution peaked at correct depth hypothesis, and 2) Geometry-aware Regularization which enhances the representative power of cost aggregation by additionally learned offsets to better fit the local geometric shape.
 </center>
 
+### Data preprocessing
+![sparse_preproc](/figures/sparse_preproc.png)
+<center> The sparse points produced by structure-from-motion is the sparse representation of the scene. The sparse points are first projected into image plane to generate the sparse depth, then the sparse priors are used to modulate the cost volume by  using the Gaussian function. 
+</center> 
+
+This step is implemented by [colmap_sparse_recon](https://github.com/XYZ-qiyh/colmap_sparse_recon).
+
+
 <!--
 ### How to use
 0. Dependencies
