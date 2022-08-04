@@ -37,4 +37,10 @@ This step is implemented by [colmap_sparse_recon](https://github.com/XYZ-qiyh/co
 -->
 
 ### Acknowledgement
-   + This code is based on the [MVSNet-pytorch](https://github.com/xy-guo/MVSNet_pytorch)/[CasMVSNet](https://github.com/alibaba/cascade-stereo/tree/master/CasMVSNet), thank xy-guo/Gu Xiaodong@Alibaba for his excellent code.
+   + This code is based on the [MVSNet-pytorch](https://github.com/xy-guo/MVSNet_pytorch)/[CasMVSNet](https://github.com/alibaba/cascade-stereo/tree/master/CasMVSNet), thank xy-guo/Gu Xiaodong@Alibaba for their excellent code.
+
+### References
+[1] [Guided Stereo Matching](https://github.com/mattpoggi/guided-stereo), Matteo Poggi, Davide Pallotti, Fabio Tosi and Stefano Mattoccia, CVPR 2019.
+
+[2] 3D Deformable Convolutions for MRI classification [[paper](https://arxiv.org/pdf/1911.01898.pdf)] [[code](https://github.com/kondratevakate/3d-deformable-convolutions)] 
+
