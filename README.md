@@ -1,6 +1,6 @@
 # Sparse-Prior-Guided-MVS
 
-Demo code for "[Sparse Prior Guided Deep Multi-view Stereo](https://www.sciencedirect.com/science/article/abs/pii/S0097849322001157)" (Computers and Graphics 2022)
+"[Sparse Prior Guided Deep Multi-view Stereo](https://www.sciencedirect.com/science/article/abs/pii/S0097849322001157)" (Computers and Graphics 2022)
 
 ### Abstract
 
@@ -36,8 +36,11 @@ This step is implemented by [colmap_sparse_recon](https://github.com/XYZ-qiyh/co
 ![depth_results](/figures/depth_results.png)
 -->
 
+### Contact
+qiyuhang_hust AT foxmail.com
+
 ### Acknowledgement
-   + This code is based on the [MVSNet-pytorch](https://github.com/xy-guo/MVSNet_pytorch)/[CasMVSNet](https://github.com/alibaba/cascade-stereo/tree/master/CasMVSNet), thank xy-guo/Gu Xiaodong@Alibaba for their excellent code.
+This code is based on the [MVSNet-pytorch](https://github.com/xy-guo/MVSNet_pytorch)/[CasMVSNet](https://github.com/alibaba/cascade-stereo/tree/master/CasMVSNet), thank xy-guo/Gu Xiaodong@Alibaba for their excellent code.
 
 ### References
 [1] [Guided Stereo Matching](https://github.com/mattpoggi/guided-stereo), Matteo Poggi, Davide Pallotti, Fabio Tosi and Stefano Mattoccia, CVPR 2019.
