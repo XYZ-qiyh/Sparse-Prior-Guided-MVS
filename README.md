@@ -16,8 +16,9 @@ Recently, the learning-based multi-view stereo (MVS) methods have achieved notab
 <center> The sparse points produced by structure-from-motion is the sparse representation of the scene. The sparse points are first projected into image plane to generate the sparse depth, then the sparse priors are used to modulate the cost volume by  using the Gaussian function. 
 </center> 
 
+<!--
 This step is implemented by [colmap_sparse_recon](https://github.com/XYZ-qiyh/colmap_sparse_recon).
-
+--->
 
 <!--
 ### How to use
@@ -37,7 +38,7 @@ This step is implemented by [colmap_sparse_recon](https://github.com/XYZ-qiyh/co
 -->
 
 ### Contact
-qiyuhang_hust AT foxmail.com
+qiyuhang@hust.edu.cn
 
 ### Acknowledgement
 This code is based on the [MVSNet-pytorch](https://github.com/xy-guo/MVSNet_pytorch)/[CasMVSNet](https://github.com/alibaba/cascade-stereo/tree/master/CasMVSNet), thank xy-guo/Gu Xiaodong@Alibaba for their excellent code.
